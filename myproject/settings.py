@@ -30,11 +30,11 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gbproj.pythonanywhere.com']
 
 INTERNAL_IPS = [
     # '127.0.0.1',
-    'gbproj.pythonanywhere.com'
+
 ]
 
 # Application definition
