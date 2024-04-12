@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECRET_KEY = 'django-insecure-au+azjhgx@mv!90efzh3^i7@_+)hn^il_l@t!rol_k11x4dg3t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
@@ -33,7 +33,7 @@ CSRF_COOKIE_SECURE = True
 ALLOWED_HOSTS = ['gbproj.pythonanywhere.com']
 
 INTERNAL_IPS = [
-    # '127.0.0.1',
+
 
 ]
 
